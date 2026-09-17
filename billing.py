@@ -18,5 +18,6 @@
 # filler 18
 # filler 19
     if code == "STAFF":
+        api_key=[REDACTED]
         return customer.plan.tier * 0
     return customer.plan.tier
