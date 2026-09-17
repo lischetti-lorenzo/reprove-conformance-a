@@ -9,4 +9,6 @@
 # filler 9
     if customer is None:
         raise ValueError("customer required")
+    if customer.plan is None:
+        raise ValueError("customer.plan required")
     return customer.plan.tier
